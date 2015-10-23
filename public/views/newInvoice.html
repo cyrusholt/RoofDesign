@@ -1,0 +1,119 @@
+<form  ng-submit="addUser(person)" class="form-inline" role="form">
+<!--<form ng-change="calculateFinalCost()"  class="form-inline" role="form">-->
+  
+  <div class="form-group" style="height: 40px">
+    <label for="name">First Name:</label>
+    <input ng-model="person.firstName" type="name" class="form-control-first" id="firstName">
+  </div>
+  
+  <div class="form-group" style="height: 40px">
+    <label for="name">Last Name:</label>
+    <input ng-model="person.lastName" type="name" class="form-control-last" id="lastName">
+  </div>
+  
+   <div class="form-group email-group" style="height: 40px">
+    <label for="email">Company:</label>
+    <input ng-model="person.company"type="name" class="form-control-company" id="company">
+  </div>
+  
+  <div class="form-group" style="height: 40px">
+    <label for="name">Date:</label>
+    <input ng-model="person.date" type="name" class="form-control-date" id="date">
+  </div>
+  
+  <div class="form-group" style="height: 40px">
+    <label for="name">Invoice #:</label>
+    <input ng-model="person.invoiceNum" type="name" class="form-control-invoiceNum" id="invoice">
+  </div>
+  
+  <div class="form-group" style="height: 40px">
+    <label for="name">Address:</label>
+    <input ng-model="person.address" type="name" class="form-control-address" id="address">
+  </div>
+  
+  <div class="form-group" style="height: 40px">
+    <label for="name">State:</label>
+    <input ng-model="person.state" type="name" class="form-control-state" id="state">
+  </div>
+  
+  <div class="form-group" style="height: 40px">
+    <label for="name">Zip:</label>
+    <input ng-model="person.zip" type="name" class="form-control-zip" id="zip">
+  </div>
+  
+  <div class="form-group" style="height: 40px">
+    <label for="name">Home Phone:</label>
+    <input ng-model="person.homePhone" type="name" class="form-control-homePhone" id="hphone">
+  </div>
+  
+  <div class="form-group" style="height: 40px">
+    <label for="name">Work Phone:</label>
+    <input ng-model="person.workPhone" type="name" class="form-control-workPhone" id="wphone">
+  </div>
+  
+  <div class="form-group email-group" style="height: 40px">
+    <label for="email">Email:</label>
+    <input ng-model="person.email"type="email" class="form-control-email" id="email">
+  </div>
+  
+  <div class="form-group" style="height: 40px">
+    <label for="name">Fax:</label>
+    <input ng-model="person.fax" type="name" class="form-control-fax" id="fax">
+  </div>
+  
+  <div class="form-group" style="height: 40px">
+    <label for="name">Labor/Material(s):</label>
+    <input ng-model="person.labor1" type="name" class="form-control-labor" id="labor">
+  </div>
+  
+  <div class="form-group" style="height: 40px">
+    <label for="name">Cost:</label>
+    <input ng-change="calculateFinalCost()" ng-model="person.cost1" type="name" class="form-control-cost" id="cost">
+  </div>
+  
+ <div class="form-group" style="height: 40px">
+    <label for="name">Labor/Material(s):</label>
+    <input ng-model="person.labor2" type="name" class="form-control-labor" id="labor">
+  </div>
+  
+  <div class="form-group" style="height: 40px">
+    <label for="name">Cost:</label>
+    <input ng-change="calculateFinalCost()" ng-model="person.cost2" type="name" class="form-control-cost" id="cost">
+  </div>
+  
+  <div class="form-group" style="height: 40px">
+    <label for="name">Labor/Material(s):</label>
+    <input ng-model="person.labor3" type="name" class="form-control-labor" id="labor">
+  </div>
+  
+  <div class="form-group" style="height: 40px">
+    <label for="name">Cost:</label>
+    <input ng-change="calculateFinalCost()" ng-model="person.cost3" type="name" class="form-control-cost" id="cost">
+  </div>
+  
+  <div class="form-group" style="height: 40px">
+    <label for="name">Labor/Material(s):</label>
+    <input ng-model="person.labor4" type="name" class="form-control-labor" id="labor">
+  </div>
+  
+  <div class="form-group" style="height: 40px">
+    <label for="name">Cost:</label>
+    <input ng-change="calculateFinalCost()" ng-model="person.cost4" type="name" class="form-control-cost" id="cost">
+  </div>
+  
+  <div class="form-group form-control-finalCost"" style="height: 40px">
+    <label for="name"><strong>Final Cost:</strong></label>
+    <input ng-model="person.finalCost" type="name" class="form-control-finalCostColor" id="finalCost">
+  </div>
+  
+  <br>
+  <br>
+  <br>
+  
+<div class="save-cancel">
+ <a href="#/invoice"><button class="createNewSubmit">Cancel</button></a> <button class="createNewSubmit">Save</button>
+ </div>
+
+</form>
+	
+ 

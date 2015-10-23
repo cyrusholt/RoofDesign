@@ -1,0 +1,451 @@
+.topbar{
+    top:0;
+    width: 100%;
+    height: 80px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: row;
+}
+
+.roofLogo {
+	margin-top: 10px;
+	height: 65px;
+}
+.navPages{
+    color: #286090;
+    width: 600px;
+    margin-top: 45px;
+    font-size: 20px;
+   
+}
+
+.ulList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.phoneNumber {
+    margin-left: 90px;
+    margin-top: 20px;
+    font-size: 19px;
+    width: 400px;
+}
+
+.seHabla {
+    width: 120px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 16px;
+    
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 100%;
+}
+
+#myCarousel {
+    width: 100%;
+    height: 575px;
+}
+
+
+
+body {
+    font-family: 'Papyrus';
+    font-size: 18px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+
+
+u {
+    margin-left: 10px;
+}
+
+
+.owensC-footer {
+    width: 100%;
+    height: 57px;
+    min-height: 100%;
+    background-color: #f7f7f7;
+    position:relative;
+	bottom:0;
+	left:0;
+    display: flex;
+    flex-direction: row;
+}
+
+.panther {
+    width: 250px;
+    height: 57px;
+}
+
+#signin {
+    margin-left: 664px;
+    margin-top: 13px;
+}
+
+.about-page {
+    background-color: #eaeaea;
+    width: 100%;
+    height: 575px;
+}
+.about-page-text{
+    width: 1200px;
+    padding-left: 200px;
+    padding-top: 90px;
+    font-size: 23px;
+    font-family: "Century Gothic";
+}
+.faq-page {
+    background-color: #eaeaea;
+    width: 100%;
+    height: 575px;
+    font-family: "Century Gothic";
+}
+
+.back-button {
+    margin-right: 450px;
+}
+.back-button-general {
+    margin-right: 280px;
+}
+
+.back-button-leaks {
+    margin-right: 548px;
+}
+.back-button-wind {
+    margin-right: 509px;
+}
+
+.increase-top-text, .building-top-text, .wind-top-text, .hail-top-text, .falling-top-text  {
+    padding-left: 20px;
+    font-size: 23px;
+}
+
+.leaks-top-text{
+    padding-left: 20px;
+    font-size: 23px;
+    
+}
+
+.general-top-text {
+    padding-left: 20px;
+    font-size: 23px;
+    margin-top: -5px;
+}
+
+.general-pics-container{
+    width: 639px;
+}
+
+
+.leaks-body-text {
+    width: 880px;
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+.leak-pics{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.leak-pics-page{
+    width: 180px;
+    height: 180px;
+    margin-top: 10px;
+}
+
+.general-pics{
+    width: 180px;
+    height: 180px;
+    margin-top: 10px;
+}
+
+.hail-body-text {
+    width: 700px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.general-body-text {
+    width: 500px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.wind-body-text{
+    width: 2714px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.falling-body-text{
+    width: 700px;
+    font-size: 19px;
+    margin-left: 10px;
+}
+
+.building, .leaks, .wind, .hail, .falling, .general{
+    background-color: #eaeaea;
+    height: 600px;
+    font-family: "Century Gothic";
+}
+
+.increase {
+    background-color: #eaeaea;
+    height: 600px;
+    font-family: "Century Gothic";
+}
+
+.increase-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.comparision{
+    margin-left: 154px;
+}
+
+.bluePrint{
+    margin-left: 382px;
+}
+
+.leak-signs{
+    margin-left: 68PX;
+}
+
+.general-signs{
+    margin-left: 68PX;
+    font-size: 16px;
+    width: 846px;
+}
+
+.increase-body-text, .building-body-text {
+    width: 500px;
+    margin-left: 40px;
+}
+
+.top-text-faq{
+    padding-left: 600px;
+    padding-top: 20px;
+    font-size: 24px;
+    
+}
+.intro-text-faq{
+    width: 1100px;
+    padding-left: 360px;
+    font-size: 20px;
+}
+.faq-list{
+    padding-left: 381px;
+}
+.our-page {
+    background-color: #eaeaea;
+    width: 100%;
+    height: 575px;
+    display: flex;
+    flex-direction: row;
+}
+
+.action-pic{
+    height: 400px;
+    width: 800px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.estimate-page {
+    background-color: #eaeaea;
+    width: 100%;
+    height: 575px;
+}
+
+.formtable{
+    margin-left: 470px;
+    
+}
+
+.fn{
+    margin-top: 50px;
+}
+
+.ln{
+    margin-top: 5px;
+}
+
+.ea{
+    margin-top: 5px;
+}
+
+.tn{
+    margin-top: 5px;
+}
+
+.cm{
+    margin-top: 5px;
+}
+
+.enterInfo {
+    margin-left: 435px;
+    padding-top: 50px;
+    font-size: 35px;
+   
+}
+
+.cont1{
+    left: 50%;
+    margin-left: 0px;
+    
+}
+
+.submitbutton{
+    margin-left: 30px;
+}
+
+.table{
+    margin-top: 100px;
+}
+
+.form-inline{
+    height: 575px;
+    width: 100%;
+    border: 5px bold #333;
+    background-color: #eaeaea;
+    font-family: "Century Gothic";
+   
+}
+
+.form-group{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.form-control-address{
+    width: 602px;
+    background-color: #f7f7f7;
+}
+
+.form-control-first, .form-control-last{
+    width: 200px;
+    background-color: #f7f7f7;
+}
+
+.form-control-company{
+    width: 250px;
+    background-color: #f7f7f7;
+}
+
+.form-control-invoiceNum{
+    width: 50px;
+    background-color: #f7f7f7;
+}
+
+.form-control-labor{
+    width: 800px;
+    background-color: #f7f7f7;
+}
+.form-control-date{
+    background-color: #f7f7f7;
+}
+
+.form-control-cost{
+    background-color: #f7f7f7;
+}
+
+.form-control-state{
+    background-color: #f7f7f7;
+}
+
+.form-control-zip{
+    background-color: #f7f7f7;
+}
+
+.form-control-homePhone{
+    background-color: #f7f7f7;
+}
+
+.form-control-workPhone{
+    background-color: #f7f7f7;
+}
+
+.form-control-email{
+    background-color: #f7f7f7;
+}
+
+.form-control-fax{
+    background-color: #f7f7f7;
+}
+
+.form-control-finalCost{
+    margin-left: 939px;
+}
+
+#finalCost{
+    background-color: #ff7575;
+    
+}
+
+.save-cancel{
+    float: right;
+    margin-right: 100px;
+}
+
+.createNewSubmit{
+    margin-left: 10px;
+}
+
+
+.createNewSubmit{
+    width: 100px;
+    height: 30px;
+}
+
+.viewInvoices{
+    background-color: #eaeaea;
+    font-family: "Century Gothic";
+}
+
+a {
+    color: #286090;
+    text-decoration: none;
+}
+
+.createInvoicePage{
+    background-color: #eaeaea;
+    height:  575px;
+}
+
+.myGrid{
+    margin-top: 50px;
+    font-family: "Century Gothic";
+}
+
+.create-new-invoice-back{
+    height: 30px;
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: "Century Gothic";
+} 
+
+.create-new-invoice {
+    height: 30px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: "Century Gothic";
+}
+
+.invoice-top{
+    font-size: 30px;
+    margin-left: 665px;
+    font-family: "Century Gothic";
+}
